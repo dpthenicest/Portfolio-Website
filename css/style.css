@@ -318,11 +318,11 @@ abbr {
 
 .wrapper2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
     grid-auto-rows: 180px;
     background-color: #d8d8d8;
-    width: 70%;
+    width: 85%;
     margin: auto;
     min-width: 550px;
     text-align: center;
@@ -332,7 +332,7 @@ abbr {
 
 .wrapper2 > div {
     background-color: white;
-    margin: 2px;
+    margin: 1px;
     border-radius: 4px;
     padding: 10px;
     box-shadow: 5px 5px 35px;
@@ -343,6 +343,20 @@ abbr {
 .wrapper2 div:hover,
 .wrapper2 div:active{
     bottom: 7px;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 180px;
+    background-color: #d8d8d8;
+    width: 85%;
+    margin: auto;
+    min-width: 550px;
+    text-align: center;
+    font-family: 'copperplate gothic', serif;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 550px){
@@ -364,6 +378,7 @@ abbr {
 .py-img {
     width: 45%;
     max-width: 77.7px;
+    border-radius: 5px;
 }
 
 .proj {
