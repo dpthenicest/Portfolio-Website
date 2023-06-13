@@ -56,11 +56,3 @@ window.onload = function () {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; color: white;}";
     document.body.appendChild(css);
 };
-
-const project = () => {
-    alert("No project for now! Just this one🙃");
-}
-
-const twitter = () => {
-    alert("Currently unavailable!");
-}
