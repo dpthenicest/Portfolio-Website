@@ -15,9 +15,9 @@ body {
 }
 
 .code-font-s {
-    font-family: "Droid Sans Mono";
-    font-size: 14px;
-  }
+  font-family: "Droid Sans Mono";
+  font-size: 14px;
+}
 
 .container {
   width: 70%;
@@ -369,19 +369,22 @@ abbr {
 }
 
 .wrapper3 > div {
-    background-color: white;
-    margin: 1px;
-    border-radius: 4px;
-    padding: 10px;
-    padding-top: 25px;
-    /* box-shadow: 5px 5px 35px; */
-    position: relative;
-    transition: bottom 3s linear;
-  }
+  background-color: white;
+  margin: 1px;
+  border-radius: 4px;
+  padding: 10px;
+  padding-top: 25px;
+  /* box-shadow: 5px 5px 35px; */
+  position: relative;
+  transition: bottom 3s linear;
+}
 
 @media (max-width: 550px) {
   .wrapper2 {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 250px;
     width: 80%;
     margin: auto;
     min-width: 40px;
@@ -392,6 +395,21 @@ abbr {
   }
   .wrapper2 > div {
     margin-bottom: 15px;
+  }
+
+  .wrapper3 {
+    display: block;
+    width: 80%;
+    margin: auto;
+    min-width: 40px;
+  }
+
+  .wrapper3 div {
+    padding: 2.5em 0;
+  }
+  .wrapper3 > div {
+    margin-bottom: 15px;
+    padding-top: 15px;
   }
 }
 
@@ -444,6 +462,11 @@ footer {
 
 .socials {
   margin: 6px 0;
+}
+
+.socials > a{
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .socials img {
